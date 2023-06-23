@@ -9,7 +9,7 @@ port: '3000',
 });
 let myVideoStream;
 navigator.mediaDevices
-.getUserMedia({
+.getUserMedia ({
 audio: true,
 video: true,
 })
